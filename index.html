@@ -1,36 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Selbach | Cibersegurança e Infraestrutura de Redes</title>
 
-  <title>Daniel Selbach — Redes, Cyber e Cloud</title>
-  <meta name="description" content="Profissional de Redes, Cibersegurança e Cloud. Projetos, certificações e contato." />
+  <meta name="description" content="Portfólio profissional de Daniel Selbach — Red Team, Redes e Cloud com integridade e excelência." />
 
-  <!-- Canonical + i18n -->
+  <!-- SEO: canonical + hreflang -->
   <link rel="canonical" href="https://danielselbachoficial.github.io/" />
-  <link rel="alternate" href="https://danielselbachoficial.github.io/" hreflang="pt-BR" />
-  <link rel="alternate" href="https://danielselbachoficial.github.io/en/" hreflang="en-US" />
-  <link rel="alternate" href="https://danielselbachoficial.github.io/" hreflang="x-default" />
+  <link rel="alternate" hreflang="pt-BR" href="https://danielselbachoficial.github.io/" />
+  <link rel="alternate" hreflang="en-US" href="https://danielselbachoficial.github.io/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://danielselbachoficial.github.io/" />
 
-  <!-- Open Graph -->
+  <meta name="theme-color" content="#0F0F1E" />
+
+  <!-- Open Graph (URL absoluta p/ preview consistente) -->
+  <meta property="og:title" content="Daniel Selbach | Cibersegurança e Infraestrutura de Redes" />
+  <meta property="og:description" content="Red Team, Redes e Cloud com integridade e excelência." />
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Daniel Selbach" />
-  <meta property="og:title" content="Daniel Selbach — Redes, Cyber e Cloud" />
-  <meta property="og:description" content="Profissional de Redes, Cibersegurança e Cloud. Projetos, certificações e contato." />
   <meta property="og:url" content="https://danielselbachoficial.github.io/" />
   <meta property="og:image" content="https://danielselbachoficial.github.io/assets/fotoprofissional-daniel.png" />
-  <meta property="og:image:alt" content="Foto profissional de Daniel Selbach" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Daniel Selbach — Redes, Cyber e Cloud" />
-  <meta name="twitter:description" content="Profissional de Redes, Cibersegurança e Cloud. Projetos, certificações e contato." />
+  <meta name="twitter:title" content="Daniel Selbach | Cibersegurança e Infraestrutura de Redes" />
+  <meta name="twitter:description" content="Red Team, Redes e Cloud com integridade e excelência." />
   <meta name="twitter:image" content="https://danielselbachoficial.github.io/assets/fotoprofissional-daniel.png" />
 
-  <!-- Performance -->
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- CSS -->
   <link rel="stylesheet" href="/styles.css" />
@@ -43,8 +47,9 @@
     "name": "Daniel Selbach",
     "url": "https://danielselbachoficial.github.io/",
     "image": "https://danielselbachoficial.github.io/assets/fotoprofissional-daniel.png",
-    "jobTitle": "Redes, Cibersegurança e Cloud",
+    "jobTitle": "Cibersegurança e Infraestrutura de Redes",
     "sameAs": [
+      "https://www.linkedin.com/in/danielselbachoficial/",
       "https://github.com/danielselbachoficial"
     ]
   }
@@ -52,144 +57,131 @@
 </head>
 
 <body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Navegação principal">
+        <div class="logo">Daniel Selbach</div>
 
-  <header class="header">
-    <div class="container nav-container">
-      <a class="logo" href="/" aria-label="Ir para a página inicial">Daniel Selbach</a>
-
-      <nav class="nav" aria-label="Navegação principal">
         <ul class="nav-links">
           <li><a href="#sobre">Sobre</a></li>
           <li><a href="#certificacoes">Certificações</a></li>
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
+          <li>
+            <a class="lang-switch" href="/en/" hreflang="en-US" lang="en" aria-label="Switch to English">EN</a>
+          </li>
         </ul>
       </nav>
 
-      <a class="language-switch" href="/en/" hreflang="en-US" lang="en">EN</a>
-    </div>
-  </header>
+      <div class="hero-container">
+        <div class="hero-profile-image">
+          <img
+            src="/assets/fotoprofissional-daniel.png"
+            alt="Daniel Selbach - Especialista em Cibersegurança e Infraestrutura de Redes"
+            class="profile-img"
+            width="280"
+            height="280"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
 
-  <main id="conteudo">
-    <!-- HERO -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="container hero-container">
-        <div class="hero-text">
+        <div class="hero-text-content">
+          <h1 class="hero-title">Daniel Selbach</h1>
           <p class="hero-subtitle">Redes • Cibersegurança • Cloud</p>
-          <h1 id="hero-title" class="hero-title">Construindo soluções seguras e escaláveis</h1>
           <p class="hero-description">
             Profissional focado em infraestrutura, segurança e cloud. Aqui você encontra certificações, projetos e formas de contato.
           </p>
 
-          <div class="hero-cta">
-            <a class="btn primary" href="#projetos">Ver projetos</a>
-            <a class="btn secondary" href="#contato">Falar comigo</a>
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn primary">Ver projetos</a>
+            <a href="#contato" class="btn secondary">Falar comigo</a>
           </div>
         </div>
-
-        <div class="hero-profile-image">
-          <img
-            src="/assets/fotoprofissional-daniel.png"
-            alt="Foto profissional de Daniel Selbach"
-            width="420"
-            height="420"
-            decoding="async"
-            fetchpriority="high"
-          />
-        </div>
       </div>
-    </section>
-
-    <!-- SOBRE -->
-    <section id="sobre" class="section" aria-labelledby="sobre-title">
-      <div class="container">
-        <h2 id="sobre-title" class="section-title">Sobre</h2>
-        <div class="sobre-content">
-          <p>
-            Sou Daniel Selbach, atuo com redes, cibersegurança e cloud. Trabalho com boas práticas de arquitetura, performance e segurança,
-            priorizando soluções robustas e pragmáticas.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- CERTIFICAÇÕES -->
-<section id="certificacoes" class="section" aria-labelledby="cert-title">
-  <div class="container">
-    <h2 id="cert-title" class="section-title">Certificações</h2>
-    <p class="section-subtitle">Certificações organizadas por área de atuação.</p>
-
-    <div class="cert-grid">
-
-      <!-- Cybersecurity -->
-      <article class="cert-category">
-        <h3 class="cert-heading">🔐 Cybersecurity</h3>
-        <ul class="cert-list">
-          <li>Fortinet Certified Fundamentals (FCF)</li>
-          <li>Fortinet Certified Associate (FCA)</li>
-          <li>Professional SOC Analyst</li>
-          <li>Certified Associate Penetration Tester (CAPT)</li>
-          <li>Certified Cybersecurity Educator Professional (CCEP)</li>
-          <li>Linux Security Essentials</li>
-        </ul>
-      </article>
-
-      <!-- Networking -->
-      <article class="cert-category">
-        <h3 class="cert-heading">🌐 Networking</h3>
-        <ul class="cert-list">
-          <li>MikroTik Certified Security Engineer</li>
-          <li>Grandstream Certified Specialist Network Solution</li>
-          <li>Ruijie Specialist Engineer (RSE) Reyee</li>
-        </ul>
-      </article>
-
-      <!-- Cloud & Vendors -->
-      <article class="cert-category">
-        <h3 class="cert-heading">☁️ Cloud & Vendors</h3>
-        <ul class="cert-list">
-          <li>Acronis Cloud Tech Fundamentals</li>
-          <li>Acronis Cloud Sales Fundamentals</li>
-          <li>Technical Foundations (Starti)</li>
-          <li>Technical Analyst (Starti)</li>
-          <li>Technical Expert (Starti)</li>
-        </ul>
-      </article>
-
     </div>
-  </div>
-</section>
+  </header>
 
-    <!-- PROJETOS -->
-    <section id="projetos" class="section" aria-labelledby="proj-title">
+  <main>
+    <section id="sobre" class="sobre" aria-labelledby="sobre-title">
       <div class="container">
-        <h2 id="proj-title" class="section-title">Projetos</h2>
-        <p>Em breve: projetos públicos e estudos de caso (infra, security e automação).</p>
+        <h2 id="sobre-title" class="section-title">👨‍💻 Sobre Mim</h2>
+        <p class="section-subtitle">Profissional de Cibersegurança movido por propósito, ética e performance.</p>
 
-        <!-- Se você já tem cards/links aqui, mantenha-os -->
-        <!-- Exemplo:
-        <div class="projects">
-          <a class="project-card" href="#" target="_blank" rel="noopener">Projeto X</a>
+        <div class="sobre-content">
+          <p><strong>+12 anos de experiência</strong> em TI e Telecom, com foco em <strong>Segurança</strong>, <strong>Infraestrutura de Redes</strong> e <strong>Cloud</strong>.</p>
+          <p>Profissional orientado por missão, comprometido com sistemas seguros, resilientes e alinhados a princípios éticos.</p>
         </div>
-        -->
       </div>
     </section>
 
-    <!-- CONTATO -->
-    <section id="contato" class="section" aria-labelledby="cont-title">
+    <section id="certificacoes" class="certificacoes" aria-labelledby="cert-title">
       <div class="container">
-        <h2 id="cont-title" class="section-title">Contato</h2>
+        <h2 id="cert-title" class="section-title">🧠 Certificações Técnicas</h2>
+        <p class="section-subtitle">Credenciais que demonstram compromisso com excelência e aprendizado contínuo.</p>
 
-        <div class="contact-grid">
-          <a class="contact-card" href="mailto:SEU_EMAIL_AQUI" aria-label="Enviar email">
-            <span class="contact-title">Email</span>
-            <span class="contact-value">SEU_EMAIL_AQUI</span>
+        <div class="cert-category">
+          <h3 class="cert-category-title">🔐 Cibersegurança</h3>
+          <ul class="cert-grid">
+            <li>Fortinet Certified Fundamentals in Cybersecurity (FCF)</li>
+            <li>Fortinet Certified Associate (FCA)</li>
+            <li>Professional SOC Analyst</li>
+            <li>Linux Security Essentials</li>
+            <li>Certified Cybersecurity Educator Professional (CCEP)</li>
+            <li>Certified Associate Penetration Tester (CAPT)</li>
+          </ul>
+        </div>
+
+        <div class="cert-category">
+          <h3 class="cert-category-title">🌐 Redes</h3>
+          <ul class="cert-grid">
+            <li>MikroTik Certified Security Engineer</li>
+            <li>Ruijie Specialist Engineer (RSE) Reyee Solution (For Office)</li>
+            <li>Grandstream Certified Specialist Network Solution</li>
+          </ul>
+        </div>
+
+        <div class="cert-category">
+          <h3 class="cert-category-title">☁️ Cloud & Foundations</h3>
+          <ul class="cert-grid">
+            <li>Acronis Cloud Tech Fundamentals</li>
+            <li>Acronis Cloud Sales Fundamentals</li>
+            <li>Technical Foundations (Starti)</li>
+            <li>Technical Analyst (Starti)</li>
+            <li>Technical Expert (Starti)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos" aria-labelledby="proj-title">
+      <div class="container">
+        <h2 id="proj-title" class="section-title">📈 Projetos</h2>
+        <p class="section-subtitle">Contribuições práticas com foco em segurança, redes e cloud.</p>
+        <p>Em breve: projetos públicos e estudos de caso (infra, security e automação).</p>
+      </div>
+    </section>
+
+    <section id="contato" class="contato" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">📩 Contato</h2>
+        <p class="section-subtitle">Vamos conectar e fortalecer sistemas com segurança.</p>
+
+        <div class="contato-links">
+          <a href="mailto:SEU_EMAIL_AQUI" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
           </a>
 
-          <a class="contact-card" href="https://github.com/danielselbachoficial" target="_blank" rel="noopener" aria-label="Abrir GitHub">
-            <span class="contact-title">GitHub</span>
-            <span class="contact-value">@danielselbachoficial</span>
+          <a href="https://www.linkedin.com/in/danielselbachoficial/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://github.com/danielselbachoficial" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
           </a>
         </div>
       </div>
@@ -197,8 +189,8 @@
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <small>© <span id="year"></span> Daniel Selbach</small>
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Daniel Selbach</p>
     </div>
   </footer>
 
@@ -206,7 +198,7 @@
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 
-  <!-- Animações -->
+  <!-- Animações (crie o arquivo /assets/js/main.js) -->
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
