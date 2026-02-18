@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daniel Selbach | Cibersegurança e Redes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Selbach | Cibersegurança e Infraestrutura de Redes</title>
 
-  <meta name="description" content="Portfólio profissional de Daniel Selbach — Red Team, Pentest, Redes e Cloud com integridade e excelência.">
-  <link rel="canonical" href="https://danielselbachoficial.github.io/portfolio/">
-  <meta name="theme-color" content="#0F0F1E">
+  <meta name="description" content="Portfólio profissional de Daniel Selbach — Red Team, Testes de Intrusão, Redes e Cloud com integridade e excelência." />
+
+  <!-- SEO: canonical + hreflang -->
+  <link rel="canonical" href="https://danielselbachoficial.github.io/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://danielselbachoficial.github.io/" />
+  <link rel="alternate" hreflang="en-US" href="https://danielselbachoficial.github.io/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://danielselbachoficial.github.io/" />
+
+  <meta name="theme-color" content="#0F0F1E" />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Daniel Selbach | Cybersecurity & Network Infrastructure Specialist">
-  <meta property="og:description" content="Professional portfolio of Daniel Selbach - Offensive Security, Networks & Cloud">
-  <meta property="og:image" content="fotoprofissional-daniel.png">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Daniel Selbach | Cibersegurança e Infraestrutura de Redes" />
+  <meta property="og:description" content="Red Team • Testes de Intrusão • Redes • Cloud" />
+  <meta property="og:image" content="assets/fotoprofissional-daniel.png" />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary_large_image" />
 
-  <!-- Performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Fonts (performance) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <!-- CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -36,153 +42,153 @@
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Daniel Selbach",
-    "url": "https://danielselbachoficial.github.io/portfolio/",
-    "jobTitle": "Cybersecurity & Network Infrastructure Specialist",
+    "url": "https://danielselbachoficial.github.io/",
+    "jobTitle": "Especialista em Cibersegurança e Infraestrutura de Redes",
     "sameAs": [
       "https://github.com/danielselbachoficial",
       "https://www.linkedin.com/in/danielselbachoficial/"
     ]
   }
   </script>
-
 </head>
 
 <body>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar" role="navigation" aria-label="Navegação principal">
+        <div class="logo">Daniel Selbach</div>
 
-<header class="hero">
-  <div class="container">
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#certificacoes">Certificações</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li>
+            <a class="lang-switch" href="/en/" hreflang="en-US" lang="en" aria-label="Switch to English">EN</a>
+          </li>
+        </ul>
+      </nav>
 
-    <nav class="navbar" role="navigation" aria-label="Main navigation">
-      <div class="logo">Daniel Selbach</div>
-      <ul class="nav-links">
-        <li><a href="#sobre">About</a></li>
-        <li><a href="#certificacoes">Certifications</a></li>
-        <li><a href="#projetos">Projects</a></li>
-        <li><a href="#contato">Contact</a></li>
-      </ul>
-    </nav>
+      <div class="hero-container">
+        <div class="hero-profile-image">
+          <img
+            src="assets/fotoprofissional-daniel.png"
+            alt="Daniel Selbach - Especialista em Cibersegurança e Infraestrutura de Redes"
+            class="profile-img"
+            width="280"
+            height="280"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
 
-    <div class="hero-container">
-      <div class="hero-profile-image">
-        <img
-          src="fotoprofissional-daniel.png"
-          alt="Daniel Selbach - Cybersecurity and Network Infrastructure Specialist"
-          class="profile-img"
-          width="280"
-          height="280"
-          loading="eager"
-          fetchpriority="high"
-          decoding="async"
-        >
-      </div>
+        <div class="hero-text-content">
+          <h1 class="hero-title">Daniel Selbach</h1>
+          <p class="hero-subtitle">Especialista em Cibersegurança Ofensiva & Infraestrutura de Redes</p>
+          <p class="hero-description">
+            +12 anos fortalecendo sistemas seguros e resilientes com excelência, integridade e responsabilidade |
+            Red Team • Testes de Intrusão • Redes • Cloud
+          </p>
 
-      <div class="hero-text-content">
-        <h1 class="hero-title">Daniel Selbach</h1>
-        <p class="hero-subtitle">Offensive Cybersecurity & Network Infrastructure Specialist</p>
-        <p class="hero-description">
-          +12 years strengthening secure and resilient systems with excellence, integrity, and stewardship | Red Team • Penetration Testing • Networks • Cloud
-        </p>
+          <div class="hero-cta">
+            <a href="mailto:danielselbachoficial@gmail.com" class="btn btn-secondary">
+              <i class="fa-solid fa-envelope"></i> Entrar em Contato
+            </a>
 
-        <div class="hero-cta">
-          <a href="mailto:danielselbachoficial@gmail.com" class="btn btn-secondary">
-            <i class="fa-solid fa-envelope"></i> Contact Me
-          </a>
-
-          <a href="https://github.com/danielselbachoficial"
-             target="_blank"
-             rel="noopener noreferrer"
-             class="btn btn-primary">
-            <i class="fa-brands fa-github"></i> GitHub
-          </a>
+            <a href="https://github.com/danielselbachoficial" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          </div>
         </div>
       </div>
     </div>
+  </header>
 
-  </div>
-</header>
+  <main>
+    <section id="sobre" class="sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <h2 id="sobre-title" class="section-title">👨‍💻 Sobre Mim</h2>
+        <p class="section-subtitle">Profissional de Cibersegurança movido por propósito, ética e performance.</p>
 
-<main>
+        <div class="sobre-content">
+          <p><strong>+12 anos de experiência</strong> em TI e Telecom, com foco em <strong>Segurança Ofensiva</strong>, <strong>Infraestrutura de Redes</strong> e <strong>Segurança em Cloud</strong>.</p>
+          <p>Profissional orientado por missão, comprometido com sistemas seguros, resilientes e alinhados a princípios éticos.</p>
+        </div>
+      </div>
+    </section>
 
-<section id="sobre" class="sobre" aria-labelledby="sobre-title">
-  <div class="container">
-    <h2 id="sobre-title" class="section-title">👨‍💻 About Me</h2>
-    <p class="section-subtitle">Cybersecurity professional driven by purpose, ethics, and performance.</p>
+    <section id="certificacoes" class="certificacoes" aria-labelledby="cert-title">
+      <div class="container">
+        <h2 id="cert-title" class="section-title">🧠 Certificações Técnicas</h2>
+        <p class="section-subtitle">Credenciais que demonstram compromisso com excelência e aprendizado contínuo.</p>
 
-    <div class="sobre-content">
-      <p><strong>+12 years of experience</strong> across IT & Telecom focused on Offensive Security, Network Infrastructure and Cloud Security.</p>
-      <p>Mission-driven professional committed to secure, resilient and ethically aligned systems.</p>
+        <div class="cert-category">
+          <h3 class="cert-category-title">🔐 Cibersegurança</h3>
+          <ul class="cert-grid">
+            <li>eJPT</li>
+            <li>eCPPT</li>
+            <li>CEH</li>
+            <li>OSCP</li>
+          </ul>
+        </div>
+
+        <div class="cert-category">
+          <h3 class="cert-category-title">☁️ Cloud</h3>
+          <ul class="cert-grid">
+            <li>AWS CCP</li>
+            <li>AZ-900</li>
+            <li>GCP ACE</li>
+          </ul>
+        </div>
+
+        <div class="cert-category">
+          <h3 class="cert-category-title">🌐 Redes</h3>
+          <ul class="cert-grid">
+            <li>MTCNA</li>
+            <li>FCF</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projetos" aria-labelledby="proj-title">
+      <div class="container">
+        <h2 id="proj-title" class="section-title">📈 Projetos</h2>
+        <p class="section-subtitle">Contribuições práticas com foco em segurança ofensiva, redes e cloud.</p>
+        <p>Laboratórios de Red Team, frameworks de hardening de redes e implementações seguras em ambientes cloud.</p>
+      </div>
+    </section>
+
+    <section id="contato" class="contato" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">📩 Contato</h2>
+        <p class="section-subtitle">Vamos conectar e fortalecer sistemas com segurança.</p>
+
+        <div class="contato-links">
+          <a href="mailto:danielselbachoficial@gmail.com" class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/danielselbachoficial/" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+
+          <a href="https://github.com/danielselbachoficial" target="_blank" rel="noopener noreferrer" class="contact-card">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Daniel Selbach. Desenvolvido com propósito.</p>
     </div>
-  </div>
-</section>
-
-<section id="certificacoes" class="certificacoes" aria-labelledby="cert-title">
-  <div class="container">
-    <h2 id="cert-title" class="section-title">🧠 Technical Certifications</h2>
-
-    <div class="cert-category">
-      <h3>🔐 Cybersecurity</h3>
-      <ul class="cert-grid">
-        <li>eJPT</li>
-        <li>eCPPT</li>
-        <li>CEH</li>
-        <li>OSCP</li>
-      </ul>
-    </div>
-
-    <div class="cert-category">
-      <h3>☁️ Cloud</h3>
-      <ul class="cert-grid">
-        <li>AWS CCP</li>
-        <li>AZ-900</li>
-        <li>GCP ACE</li>
-      </ul>
-    </div>
-
-    <div class="cert-category">
-      <h3>🌐 Networks</h3>
-      <ul class="cert-grid">
-        <li>MTCNA</li>
-        <li>FCF</li>
-      </ul>
-    </div>
-
-  </div>
-</section>
-
-<section id="projetos" class="projetos" aria-labelledby="proj-title">
-  <div class="container">
-    <h2 id="proj-title" class="section-title">📈 Projects</h2>
-    <p>Red Team labs, network hardening frameworks and secure cloud deployments.</p>
-  </div>
-</section>
-
-<section id="contato" class="contato" aria-labelledby="contact-title">
-  <div class="container">
-    <h2 id="contact-title" class="section-title">📩 Contact</h2>
-
-    <div class="contato-links">
-      <a href="mailto:danielselbachoficial@gmail.com" class="contact-card">Email</a>
-
-      <a href="https://www.linkedin.com/in/danielselbachoficial/"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="contact-card">LinkedIn</a>
-
-      <a href="https://github.com/danielselbachoficial"
-         target="_blank"
-         rel="noopener noreferrer"
-         class="contact-card">GitHub</a>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<footer class="footer">
-  <div class="container">
-    <p>© 2026 Daniel Selbach. Built with purpose.</p>
-  </div>
-</footer>
-
+  </footer>
 </body>
 </html>
