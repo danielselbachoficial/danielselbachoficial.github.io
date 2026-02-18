@@ -166,30 +166,53 @@ section { padding: 80px 0; }
   color: var(--text-secondary);
 }
 
-/* ===============================
-   CERTIFICATIONS
+/* ==============================
+   CERTIFICAÇÕES
 ================================= */
 
-.cert-category { margin-bottom: 34px; }
-
-.cert-category-title {
-  margin-bottom: 14px;
-  font-size: 1.1rem;
-}
-
 .cert-grid {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+  display: grid;
+  gap: 28px;
+  margin-top: 32px;
 }
 
-.cert-grid li {
-  background: var(--card-bg);
-  padding: 12px 16px;
-  border-radius: 10px;
-  border: 1px solid color-mix(in srgb, var(--text-primary) 10%, transparent);
+@media (min-width: 768px) {
+  .cert-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
+
+.cert-category {
+  background: rgba(255,255,255,0.04);
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.cert-category:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.cert-heading {
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cert-list li {
+  padding: 6px 0;
+  font-size: 0.92rem;
+  opacity: 0.85;
+}
+
 
 /* ===============================
    CONTACT
